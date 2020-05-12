@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ApplicationPackage SchemaVersion="1.0"
+                    AutodeskProduct="AutoCAD"
+                    ProductType="Application"
+                    Name="STV_CADTOOLS">
+  <CompanyDetails Name="" Phone=" " Url="" Email="" />
+  <RuntimeRequirements SeriesMax="R20.0"
+                       SeriesMin="R20.0"
+                       Platform="Civil3D"
+                       OS="Win32|Win64" />
+  <Components>
+    <ComponentEntry AppName="Commands for STV_CADTOOLS"
+                    Version="1.0"
+                    ModuleName="./Contents/Win/STV_CADTOOLS.dll"
+                    AppDescription="Descrition for command module of STV_CADTOOLS"
+                    LoadOnCommandInvocation="True" LoadOnRequest="True">
+      <Commands>
+        <Command Local="testSTV_CADTOOLS" Global="testSTV_CADTOOLS" />
+      </Commands>
+    </ComponentEntry>
+  </Components>
+</ApplicationPackage>
